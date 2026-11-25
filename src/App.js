@@ -28,7 +28,6 @@ withdraw
 const Flag = Rox.Flag
 const roxContainer = {
   numToString: new Rox.RoxString('10'),
-  str6: new Rox.RoxString('a'),
   poff99: new Rox.Flag(),
   yaya5: new Rox.Flag(),
   videoChat: new Rox.Flag(),
@@ -255,7 +254,7 @@ console.log('a1')
     //platform: 'Go',
     configurationFetchedHandler: (fetcherResults) => {
       console.log('**', fetcherResults, new Date(), fetcherResults.hasChanges, fetcherResults.fetcherStatus, '**');
-      console.log('**', roxContainer.str6.getValue(), '**')
+      console.log('**', 'newValue', '**')
     },
     //roxy: 'http://localhost:3333',
     //freeze: Rox.RoxFlagFreezeLevel.untilLaunch,
